@@ -1,14 +1,12 @@
 import SgdsAccordion from "@govtechsg/sgds-web-component/react/accordion/index.js";
 import SgdsAccordionItem from "@govtechsg/sgds-web-component/react/accordion-item/index.js";
-// import "@webcomponents/scoped-custom-element-registry"
-
 export const Accordion = () => {
     return (
         <>
             <SgdsAccordion>
                 <SgdsAccordionItem>
                     <div className="m-0" slot="accordion-header">This is a solo accordion</div>
-                    <span slot="accordion-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores soluta eaque fugit fuga distinctio? Eum.</span>
+                    <span slot="accordion-content">xyz Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores soluta eaque fugit fuga distinctio? Eum.</span>
                 </SgdsAccordionItem>
             </SgdsAccordion>
             <SgdsAccordion>
