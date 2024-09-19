@@ -5,7 +5,7 @@ export const Accordion = () => {
         <>
             <SgdsAccordion>
                 <SgdsAccordionItem>
-                    <div className="m-0" slot="accordion-header">This is a solo accordion</div>
+                    <div className="m-4 border-4" slot="accordion-header">This is a solo accordion</div>
                     <span slot="accordion-content">xyz Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores soluta eaque fugit fuga distinctio? Eum.</span>
                 </SgdsAccordionItem>
             </SgdsAccordion>
